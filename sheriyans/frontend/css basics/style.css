@@ -26,26 +26,26 @@ html,body{
     height: 400px;
     width: 600px;
     background: red;
-    /* overflow: hidden; */
+    overflow: hidden;
 /* }
 .child{
-    /* height: 100%;
-    width: 100%; */
-    /* height: 100vh;
+    height: 100%;
+    width: 100%;
+    height: 100vh;
     width: 100vw;
     background: green; */
-/* }  */
-html{
+/* } 
+/* html{
     font-size: 12px;
 }
 #test{
     font-size: 16px;
-    /* height: 20em;
-    width: 20em; */
+    height: 20em;
+    width: 20em;
     height: 20rem;
     width: 20rem;
-    background-color: red;
-}
+    background-color: red; 
+/* } */
 /* vw vs %
 vw:-screen ke hisab se change hota h
 %:- apne parent ke hisab se change hota h */
@@ -57,7 +57,7 @@ rem:- rem depend krta h uske parent ke font size pr */
 line-height,margin,padding,border,border-radius */
 
 
-h1{
+/* h1{
     font-family: 'Courier New', Courier, monospace;
     text-transform: ;
     text-decoration: ;
@@ -68,6 +68,185 @@ h1{
     margin: ;
     border: 2px solid red;
     border-radius: 3px;
-}
+} */
 
 /* ------------------------------------------------------- */
+/* 4.display */
+
+/* Display  */
+/* Inline elements will not allow you to increase their widht and height 
+isliye hum fir incline-block use krte h*/
+/* h1{
+    display: block;
+    display: inline;
+    display: inline-block;
+} */
+
+/* Position */
+/* absolute: position apne parent div ko apna manta h to vo vha aajaa skta hai  
+relative: apne div me rhta h bs
+fixed:fixed krdete h postion div ki*/
+/* .car1{
+    height: 250px;
+    width: 200px;
+    position: relative;
+    top: 33%;
+    left: 75%;
+    background-color: red;
+}
+.car2{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    
+    background-color: rgb(23, 104, 180);
+}
+.car3{
+    height: 250px;
+    width: 200px;
+    background-color: rgb(72, 172, 63);
+} */
+
+/* Background */
+/* .box{
+    height: 300px;
+    width: 300px;
+    background-image:url()
+    background: url('https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg');
+    background-size: cover;
+    background-position: center;
+}
+ */
+ /* Bg color gradient */
+ /* .box{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(to right,rgb(165, 70, 70),rgb(246, 246, 83));
+    background: linear-gradient(to right bottom,rgb(165, 70, 70),rgb(246, 246, 83),rgb(46, 99, 46));
+ } */
+
+
+/* 5.flexbox */
+/* parent:-display:flex
+x-axis:-justify-content
+y-axis:-align-items */
+
+/* .main-box{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+.box2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(117, 222, 25);
+}
+.box3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(204, 56, 233);
+} */
+
+/* Pseudo elments */
+/* p{
+    width: fit-content;
+    position: relative;
+}
+p::after
+p::before {
+    position:absolute;
+    top: 100%;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: red;
+}
+p::first-line{
+
+}
+P::first-letter{
+
+}
+p::selection{
+    color: green;
+} */
+
+/* Pseudo Classses */
+
+/* p:hover{
+    color: pink;
+}
+button:active{
+    background-color: red;
+}
+input:focus{
+    background: grey;
+}
+p:nth-child(2n or 3){
+    background: red;
+}
+ */
+
+ /* Colors */
+ /* website to choose colors :-color palates */
+ /* p{
+    color: red;Color name
+    color: #fff;hexadecimal
+    color: rgb(25,25,25);
+    color: rgba(23,216,13,.5);
+ } */
+
+
+ /* Grid */
+
+ /* #main{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+
+ }
+
+ .elem{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 3px solid black;
+ } */
+
+ /* eg */
+ /* #nav{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 50% 10% 10% 10% 10% 10%;
+    grid-template-rows: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 0 20px;
+ }
+ #nav h1{
+    justify-self: start;
+ } */
+ /* justify content : jb parent se child ko set krna ho
+ justify self: jb child se hi khud ko set krna ho*/
+
+ 
