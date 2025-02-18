@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* #main{
+    height: 400px;
+    width: 400px;
+    background-color: red; */
+
+    /* theses are the properties */
+    /* position: absolute;
+    animation-name: anime;
+    animation-duration: 2s ;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+}
+#box::after{
+    content: " hello hota h vo ";
+
+}
+#box::before{
+    content: " hello hota h vo ";
+}
+@keyframes anime{
+    from{
+        left:0;
+        background-color: red;
+        rotate: 0;
+    }
+    to{
+        left: 70%;
+        rotate: 360deg;
+        background-color: blue;
+    }
+    0%{
+        
+    }
+    50%{
+
+    }
+    100%{
+
+    }
+
+} */
+
+body{
+    background-color: black;
+    margin: 5vw;
+}
+button{
+    padding: 10px 20px;
+    border: 2px solid cyan;
+    background-color: transparent;
+    color: cyan;
+    font-weight: 600;
+    position: relative;
+    transition: all linear .5s;
+    overflow: hidden;
+
+
+}
+button::after{
+    content: "";
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: cyan;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)scale(0);
+    transition: all linear .3s;
+    z-index: -1;
+}
+button:hover::after{
+    /* width: 100%; */
+    transform: translate(-50%,-50%)scale(2.5);
+
+}
+button:hover{
+    color:black;
+}

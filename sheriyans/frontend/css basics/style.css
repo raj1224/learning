@@ -8,6 +8,8 @@ html,body{
     width: 100%;
     height: 100%;
 }
+/* ------------------------------------------------------------ */
+/* ID ADN CLASS */
 
 /* #id{
     color: red;
@@ -17,27 +19,41 @@ html,body{
     color: pink;
     background-color: bisque;
 } */
+
 /* div:-
 1.jahan bhi ek se jyada elements dikhe waha div h
 2. jahan bhi rectangular shape dikhe waha div h */
+
 /* ---------------------------------------------------- */
-/* 2.units:% vw vh rem em max-widht min-height  */
+/* 2.units:
+% 
+vw 
+vh
+rem 
+em 
+max-widht 
+min-height  */
+
 /* .parent{
     height: 400px;
     width: 600px;
     background: red;
     overflow: hidden;
-/* }
+    }
 .child{
     height: 100%;
     width: 100%;
     height: 100vh;
     width: 100vw;
-    background: green; */
-/* } 
-/* html{
-    font-size: 12px;
-}
+    background: green; 
+ } 
+ 
+ EM VS REM :-uses for font size
+
+1rem=16px
+ html{
+    font-size: 12px; /* reference for em
+ }
 #test{
     font-size: 16px;
     height: 20em;
