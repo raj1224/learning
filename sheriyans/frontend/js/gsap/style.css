@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+/* #box{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+} */
+
+
+/* -------------------------------------------------------------- */
+/* scroll trigger */
+/* #page1{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(196, 157, 106);
+}
+#circle{
+
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background:linear-gradient(rgb(191, 146, 146),red) ;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(220, 147, 53);
+} */
+
+/* vertical scrollar */
+/* #page1{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(196, 157, 106);
+}
+#page2 img{
+    height: 100%;
+    width: 20%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(220, 147, 53);
+} */
+
+/* horizontal scrollar */
+/* body{
+    overflow-x: hidden;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(196, 157, 106);
+}
+#page2 h1{
+    font-size: 41vw;
+    font-weight: 600;
+
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(220, 147, 53);
+} */
+
+
+
+/* #page1{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(196, 157, 106);
+}
+#img-div{
+    height: 100%;
+    width: 35%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+#img-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.2;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(220, 147, 53);
+} */
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(196, 157, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(220, 147, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#box{
+    height: 300px;
+    width: 300px;
+    
+    background-color: red;
+}

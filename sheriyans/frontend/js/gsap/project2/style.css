@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100%;
+}
+#page2{
+    background-color: rgb(120, 110, 97);
+    min-height: 100vh;
+    width: 100%;
+    padding: 5vw;
+}
+#page2 h1{
+    color:rgb(155, 146, 133);
+    font-size: 4vw;
+    line-height: 4.5vw;
+    text-align: center;
+
+}
+#page3{
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100%;
+}
