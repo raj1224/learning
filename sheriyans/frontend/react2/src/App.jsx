@@ -12,6 +12,7 @@
 //   const decrementage =()=>{
 //     setage(age-1)
 //   }
+//   const age = 21;
 
 
 //   return (
